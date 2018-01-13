@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title><Video> Player</Video></title>
+<!-- =====================================================>>>>HEADER<<<<========================================================================================== -->
+    <link rel="stylesheet" href="http://vjs.zencdn.net/5.9.2/video-js.css">
+    <script type="text/javascript" src="http://vjs.zencdn.net/5.9.2/video.js"></script>
+    <!-- videojs-vast-vpaid -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/videojs-vast-vpaid/2.0.2/videojs.vast.vpaid.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-vast-vpaid/2.0.2/videojs_5.vast.vpaid.min.js"></script>
+    <!-- prebid.js -->
+    <script src="https://acdn.adnxs.com/prebid/not-for-prod/prebid.js" async=true></script>   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<!-- PILOTX CDN WE STILL NEED TO ADD THE PATH TO THE ACTUAL CDN -->
+    <script src="pilot-video-player.min.js" async=true></script>
+<!-- =================================================>>>>HEADER<<<<========================================================================================== -->
+</head>
+<body>
+
+    <!-- ==========================================================VIDEO PLAYER============================================================================ -->
+        <video id="pid-1" class="video-js vjs-default-skin vjs-big-play-centered pilot-player" controls data-setup='{}' width='600' height='300' value='http://adn.anthemx.tv/op?pid=25&pageurl=%7BPAGEURL%7D&domain=%7BDOMAIN%7D&w=%7BW%7D&h=%7BH%7D'>
+        </video>
+        <br/>
+        <br/>
+        <video id="pid-2" class="video-js vjs-default-skin vjs-big-play-centered pilot-player" controls data-setup='{}' width='250' height='300' value="https://adn.anthemx.tv/op?pid=18&pageurl=%7BPAGEURL%7D&domain=%7BDOMAIN%7D&w=%7BW%7D&h=%7BH%7D">
+        </video>
+    <!-- =============================================================VIDEO PLAYER============================================================================ -->
+</body>
+</html>
